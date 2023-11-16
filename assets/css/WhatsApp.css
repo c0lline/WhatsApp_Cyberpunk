@@ -1,0 +1,79 @@
+:root {
+    --main-bg-color: brown;
+    --roxo-header: #261042;
+    --rosa-choquei: #FF22C1;
+    --roxo-left: #1B0636;
+    --azul-cyber: #0F1448;
+}
+
+section header{
+   
+}
+
+header, footer{
+    background-color: var(--roxo-header);
+    padding: 5px;
+    min-height: 60px;
+}
+
+header img, 
+.list-group img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+header img{
+    margin-left: 16px;
+}
+
+.img-compo{
+    height: 26px;
+}
+
+.cont{
+    margin-left: 167px;
+}
+
+.list-group-item{
+    border-radius: 0!important;
+    border-left: none;
+    border-right: none;
+    border-color: var(--azul-cyber);
+    background-color: var(--roxo-left);
+    color: white;
+}
+
+#page-left{
+    background-color: var(--roxo-left);
+    border-right: var(--azul-cyber) 1px solid;
+}
+
+main{
+    background-color: var(--azul-cyber);
+    min-height: calc(100vh - 121px);
+}
+
+
+h6{
+    color: white;
+    margin: 0;
+}
+
+#desc-h6{
+    color: white;
+}
+
+.badge{
+    color: var(--roxo-header);
+    background-color: #FF22C1;
+    margin-left: 24px;
+}
+
+.timeago {
+    color: #999;
+    font-size: .8em;
+}
+
+.costumize{
+    color: #FF22C1;
+}
